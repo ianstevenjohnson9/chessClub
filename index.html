@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chess Club</title>
+        <meta charset='UTF-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="reset.css" type="text/css" rel="stylesheet"/>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <header class="pageHeader">
+            <h1 id=header>Chess Club</h1>
+        </header>
+        <nav class="navBar">
+            <a href="#about">About</a>
+            <a href="#learning">Learning</a>
+            <a href="#event">Events</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <section id="about">
+            <h2>About</h2>
+            <h3>Welcome to the Chess Club.</h3>
+            <p>This is a webpage that will focus on learners and friendly games of chess, hopefully you will find
+                this page helpful in getting you started on learning the wonderful game of chess.
+            </p>
+            <h4>My Journey</h4>
+            <p>My dad taught me how to play chess when I was in middle school, I first saw the game of chess when I 
+                even younger than that, but it wasn't until middle school when I was really interested.
+            </p>
+            <p>My middle school had a chess club where we used to go at dinner time and have a game.
+            </p>
+            <p>My teacher must of seen lack of interest from the students as she then created a league format 
+                competition, which increase the interest of winning.
+            </p>
+        </section>
+        <section id="learning">
+            <h2>Learning</h2>
+            <div class="chessSetup">
+                <h3>Setup</h3>
+                <p>Learning how to setup a chessboard correctly is obviously the first step.</p>
+                <div class="images">
+                    <img id="setup"src="chessSetup.png" alt="Picture of a Chessboard"/>
+                </div>
+                <p>This is a picture of the chessboard setup, and the way I remember is the king is on the 
+                    opposite colour of itself. You could always just remember that the queen is on the same
+                    coloured square. 
+                </p>
+                <p>Either way you can find your own method of remembering.</p>
+            </div>
+            <div class="pieces">
+                <h3>Chess pieces</h3>
+                <div class="dropdown">
+                    <button class="dropbtn">Pieces</button>
+                    <div class="dropdown-content">
+                        <a href="#pawn">Pawn</a>
+                        <a href="#rook">Rook</a>    
+                        <a href="#knight">Knight</a>
+                        <a href="#bishop">Bishop</a>
+                        <a href="#queen">Queen</a>
+                        <a href="#king">King</a>
+                    </div>
+                </div>
+                <p>Chess pieces have different movements so lets take a look them.</p>
+                <div class="piece">
+                    <h4 id="pawn">Pawn</h4>
+                    <div class="images">
+                        <img src="pawn.png" alt="Pawn picture"/>
+                        <img src="pawnMovement.png" alt="Pawn movement"/>
+                        <img src="pawnCapture.png" alt="Pawn Capture Movement"/>
+                    </div>
+                    <p>This is the Pawn piece, this piece offers protection to the other valuable pieces
+                        and also added benefit of a promotion if you can get it to the enemies backline.
+                        Where it turns into a queen.
+                    </p>
+                </div>
+                <div class="piece">
+                    <h4 id="rook">Rook</h4>
+                    <div class="images">
+                        <img src="rook.png" alt="Rook picture"/>
+                        <img src="rookMovement.png" alt="Rook Movement"/>
+                    </div>
+                    <p>The Rook piece is a excellent way to trap the king with its linear movement.</p>
+                </div>
+                <div class="piece">
+                    <h4 id="knight">Knight</h4>
+                    <div class="images">
+                        <img src="knight.png" alt="Knight picture"/>
+                        <img src="knightMovement.png" alt="Knight movement"/>
+                    </div>
+                    <p>The knight moves in what my dad explained it to me as an L shape. When I first started
+                        playing chess I didn't know what use a knight was, but after a few games I realised
+                        the knight can be used against defensive players as after a few L's you could position 
+                        yourself into dangerous positions without endangering your own position. Only problem is
+                        your opposition also has two.
+                    </p>
+                </div>
+                <div class="piece">
+                    <h4 id="bishop">Bishop</h4>
+                    <div class="images">
+                        <img src="bishop.png" alt="Bishop picture"/>
+                        <img src="bishopMovement.png" alt="Bishop Movement"/>
+                    </div>
+                    <p>The Bishop moves in diagonal Movements, I believe the Knight and Bishop work well 
+                        together as the you can use them without much disturbance to the Pawn line. If you 
+                        want to maintain a good defensive stragety.
+                    </p>
+                </div>
+                <div class="piece">
+                    <h4 id="queen">Queen</h4>
+                    <div class="images">
+                        <img src="queen.png" alt="Queen picture"/>
+                        <img src="queenMovement.png" alt="Queen movement"/>
+                    </div>
+                    <p>The queen is the most versatile piece on the chessboard and it can move in any direction,
+                        this enables it to be the best at protecting your king or attacking the opposition king.
+                        Attacking the king with the queen is a risky strategy as you may lose your queen in 
+                        the process. Normally to a knight in my experience. 
+                    </p>
+                </div>
+                <div class="piece">
+                    <h4 id="king">King</h4>
+                    <div class="images">
+                        <img src="king.png" alt="King picture"/>
+                        <img src="kingMovement.png" alt="King movement"/>
+                    </div>
+                    <p>The king is the root objective of the game, and that objective is to capture the king.
+                        whereas the queen can manouerve multiple squares in any direction, the king can only 
+                        move one square at a time, so his protection needs to come from the only pieces.
+                    </p>
+                </div>
+            </div>
+            <div class="objective">
+                <h3>The Objective of Chess</h3>
+                <p>Now that you Know the pieces associated with the game of chess lets discuss the objective
+                    of the game.
+                </p>
+                <p>The Objective of the game is to capture the king while protecting your own king.</p>
+                <p>There are many different strageties for chess and I believe that the experience of 
+                    playing numberous different people is the best way to gain strategies for yourself.
+                </p>
+                <p>You could also look online further for tips to improve your game, but every game is 
+                    not the same, so learning to adapt to the opposition player quickly is the way to go.
+                </p>
+                <p>I am not a professional so my experience of playing is limited.</p>
+            </div>
+
+        </section>
+        <div class="backTop">
+            <a href="#header">Back to the top</a>
+        </div>
+        <section id="event">
+            <h2>Events</h2>
+            <p>This is where we will hold friendly games of chess and depending the success maybe even 
+                progress to tournments and prizes.
+            </p>
+            <h3>Friendly Games</h3>
+            <p>I am looking to host friendly games after school Tuesday and Thursday to begin with.</p>
+            <p>This will be reviewed on a fortnightly basis.</p>
+            <p>If parents want to join in the fun this is also possible as it good for their child(ren) 
+                development within the game, especially if you are a interested in learning chess 
+                also.
+            </p>
+            <p>If you are not a chess player you could learn along side your child(ren) and help eachother.</p>
+        </section>
+        <div class="backTop">
+            <a href="#header">Back to the top</a>
+        </div>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>My contact details:</p>
+            <p>Email: ianchessclub@example.com</p>
+            <p>Phone Number: 0800 example</p>
+            <p>Please contact me:</p>
+            <ul>
+                <li>To tell me you are coming.</li>
+                <li>Any ideas to improve the website or the events.</li>
+                <li>Competiton ideas to keep the chess players engaged.</li>
+                <li>General feedback on any concerns.</li>
+            </ul>
+        </section>
+        <div class="backTop">
+            <a href="#header">Back to the top</a>
+        </div>
+    </body>
+    <footer>
+        <div class="author">
+            <p>Author: Ian Johnson</p>
+        </div>
+        <div class="copy">
+            <p>&copy 2021 Chess Club</p>
+        </div>
+        <div class="social">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-google"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </footer>
+</html>
